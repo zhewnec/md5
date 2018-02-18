@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+{% load static %}# 载入静态文件
+{% load staticfiles %}
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CSS3可折叠显示的发光搜索表单DEMO演示</title>
+
+    <link rel="stylesheet" href="../static/css/style.css" media="screen" type="text/css" />
+
+</head>
+
+<body>
+<img src="../static/tu/tutu.jpg">
+<form action="/example/html5/demo_form.asp" method="get">
+  <div class="panel"> 
+  <div class="wrap">
+    <input type="text" placeholder="请输入您要解密的MD5值"/>
+    <button>Shhh!</button>
+  </div>
+</div>
+</form>
+<div style="text-align:center;clear:both">
+  <!--
+<script src="/gg_bd_ad_720x90.js" type="text/javascript"></script>
+<script src="/follow.js" type="text/javascript"></script>
+-->
+</div>
+  <script type="text/javascript">
+      var  text = '{{ text }}';
+         alert(text);
+</script>
+
+</body>
+
+</html>
